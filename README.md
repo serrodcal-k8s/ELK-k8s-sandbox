@@ -1,17 +1,17 @@
 # ELK-k8s-sandbox
 
-´´´sh
+```sh
 $ kind create cluster
-´´´
+```
 
-´´´sh
+```sh
 $ kubectl apply -f k8s
-´´´
+```
 
-´´´sh
+```sh
 kubectl port-forward employee-<id>
-´´´
+```
 
-´´´sh
+```sh
 kubectl port-forward kibana-<id> 5601
-´´´
+```
